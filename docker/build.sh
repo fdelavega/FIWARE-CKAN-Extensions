@@ -1,5 +1,5 @@
 version="7.7"
-full_version="${version}.0"
+full_version="${version}.1"
 
 docker build --squash -t fiware/ckan-extended:2.8-${full_version} .
 docker build --squash -t fiware/ckan-extended:2.7-${full_version} . -f Dockerfile-2.7

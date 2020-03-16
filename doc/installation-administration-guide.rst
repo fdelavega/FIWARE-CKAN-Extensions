@@ -149,13 +149,13 @@ To install the extension in CKAN, it is required to activate the CKAN virtual en
 
 The Private Datasets extension is available in pip and can be installed with the following command: ::
 
-    $ pip install ckanext-privatedatasets==0.4
+    $ pip install ckanext-privatedatasets==0.4.1
 
 If you want to install the extension for development, you can download it with the following commands: ::
 
     $ git clone https://github.com/conwetlab/ckanext-privatedatasets
     $ cd ckanext-privatedatasets
-    $ git checkout v0.4
+    $ git checkout v0.4.1
 
 Once the extension has been downloaded and the virtualenv has been activated, the extension can be installed with the
 following command: ::
